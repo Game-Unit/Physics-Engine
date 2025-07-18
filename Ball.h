@@ -21,8 +21,6 @@ private:
     float gravity = 9.81f;
     float airDensity = 1.2f;
 
-    inline static std::list<Ball*> otherBalls;
-
     float m_deltaTime = 0;
 
 public:

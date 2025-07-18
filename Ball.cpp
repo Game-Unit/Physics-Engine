@@ -11,8 +11,6 @@ Ball::Ball(float posX, float posY, float radius, float mass, float dragCoefficie
     m_mass = mass;
     m_dragCoefficient = dragCoefficient;
     m_coefficientOfElasticity = coefficientOfElasticity;
-
-    otherBalls.push_back(this);
 }
 
 Ball::~Ball()

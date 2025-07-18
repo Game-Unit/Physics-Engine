@@ -7,7 +7,7 @@
 
 int main()
 {
-    int amountOfBalls = 500;
+    int amountOfBalls = 100;
     Ball* balls[amountOfBalls] = {};
 
     for (int i = 0; i < amountOfBalls; i++)
